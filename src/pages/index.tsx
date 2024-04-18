@@ -4,9 +4,7 @@ const Test = dynamic(() => import('../components/Test').then(mod => mod.Test), {
 
 export default function Home() {
   return (
-    <main
-      className={`flex items-center justify-between p-24`}
-    >
+    <main>
       <div>HelloWorld</div>
       <Test />
     </main>
